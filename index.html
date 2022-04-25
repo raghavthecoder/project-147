@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html> 
+
+<head>
+
+<title>  3D animation  </title>
+<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+
+</head>
+
+<body> 
+    <a-scene>
+        <!-- <a-sky src="sky2.jpg" > </a-sky> -->
+
+        <a-entity>
+            <a-plane src="painting.jpg" position="0 3.2 -4" width="3" height="3" rotation="0 0 0"> </a-plane>
+        </a-entity>
+
+        <a-entity>
+            <a-box src="sofa.png" position="0 1.09 -4" scale="2 2 2" height="0.5" width="2"  > </a-box>
+        </a-entity>
+
+        <a-entity>
+            <a-cylinder src="lamp.jpg" position="-5 3 -5" ></a-cylinder>
+            <a-cylinder position ="-5 2 -5" color="gold" radius="0.1" height="3"></a-cylinder>
+        </a-entity>
+
+        <a-plane position="0 -1 -4" rotation="-90 90 90" width="4" height="4" color="brown"></a-plane>
+
+    </a-scene> 
+
+
+</body> 
+
+
+</html>
